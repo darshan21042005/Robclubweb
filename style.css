@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    color:whitesmoke;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logoandnavbar a{
+    color:whitesmoke;
+}
+
+.navbar a{
+    margin:40px;
+    color:whitesmoke;
+}
+
+.landing{
+    padding:150px;
+    background: url(https://img.freepik.com/free-vector/decoration-merry-christmas-festival-red-banner-with-text-space_1017-41586.jpg);
+    background-size:cover;
+}
+
+.cards{
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+}
+
+.contactdetails{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.contactdetails input,button{
+    margin:5px;
+    border-radius:40px;
+}
+
+.contactdetails button{
+    background-color: green;
+    color:whitesmoke;
+}
+
+
+
+
+
+
